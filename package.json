@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Utility functions for navigating and manipulating TGeo nodes within the CERN ROOT framework. Includes functionalities to walk through geometric nodes with customizable callbacks, find nodes matching specific patterns, and analyze nodes based on provided criteria.",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
