@@ -1,0 +1,47 @@
+{
+  "name": "@dexvis/root-geo-tree-editor",
+  "version": "0.1.0",
+  "description": "Utility functions for navigating and manipulating TGeo nodes within the CERN ROOT framework. Includes functionalities to walk through geometric nodes with customizable callbacks, find nodes matching specific patterns, and analyze nodes based on provided criteria.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexvis/root-geo-tree-editor.git"
+  },
+  "keywords": [
+    "root",
+    "geometry",
+    "cern",
+    "tgeo",
+    "tree",
+    "editor"
+  ],
+  "author": "dexvis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dexvis/root-geo-tree-editor/issues"
+  },
+  "homepage": "https://github.com/dexvis/root-geo-tree-editor#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
