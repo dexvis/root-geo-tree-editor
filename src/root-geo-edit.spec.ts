@@ -3,9 +3,9 @@ import {
   editGeoNodes,
   GeoNodeEditRule,
   EditActions,
-} from './root-geo-edit'; // Update with the actual path
+} from './root-geo-edit.js'; // Update with the actual path
 
-import {GeoAttBits, testGeoBit, toggleGeoBit} from "./root-geo-attribute-bits";
+import {GeoAttBits, testGeoBit, toggleGeoBit} from "./root-geo-attribute-bits.js";
 
 describe('editGeoNodes', () => {
 

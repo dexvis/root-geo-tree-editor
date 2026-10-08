@@ -9,7 +9,7 @@
  * @summary Unit test for GeoAttBits enum and functions for its manipulation.
  */
 
-import { GeoAttBits, setGeoBit, testGeoBit, toggleGeoBit } from "./root-geo-attribute-bits";
+import { GeoAttBits, setGeoBit, testGeoBit, toggleGeoBit } from "./root-geo-attribute-bits.js";
 
 describe('GeoBits Functions', () => {
     let volume: any;

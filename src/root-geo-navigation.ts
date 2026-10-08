@@ -12,7 +12,7 @@
  * Key functions include `walkGeoNodes`, `findGeoNodes`, `analyzeGeoNodes`.
  */
 
-import { wildCardCheck } from '../utils/wildcard';
+import { wildCardCheck } from './utils/wildcard.js';
 
 
 export type GeoNodeWalkCallback = (node: any, nodeFullPath: string, level: number) => boolean;

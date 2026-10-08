@@ -1,3 +1,3 @@
-export * from './root-geo-attribute-bits';
-export * from './root-geo-edit';
-export * from './root-geo-navigation';
+export * from './root-geo-attribute-bits.js';
+export * from './root-geo-edit.js';
+export * from './root-geo-navigation.js';
