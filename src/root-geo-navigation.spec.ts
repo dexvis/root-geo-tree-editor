@@ -3,9 +3,7 @@ import type { Mock } from "vitest";
  * @date Created on July 10, 2024
  * @author Dmitry Romanov, Natalia Jeleznova
  *
- * @license This file is part of the Dynamic Experiment Visualizer (DEXVIS), which is released under a license agreement
- * available in the LICENSE file located in the root directory of this project source tree. This
- * file is subject to that license and is intended to be used in accordance with it.
+ * @license MIT. See the LICENSE file in the root directory of this repository.
  *
  * @summary Unit tests for CERN ROOT geometry navigation functions
  */
