@@ -2,9 +2,9 @@ import {
   GeoNodeWalkCallback,
   getGeoNodesByLevel,
   walkGeoNodes
-} from "./root-geo-navigation.js";
-import {wildCardCheck} from "./utils/wildcard.js";
-import {GeoAttBits, setGeoBit, toggleGeoBit} from "./root-geo-attribute-bits.js";
+} from "./root-geo-navigation";
+import {wildCardCheck} from "./utils/wildcard";
+import {GeoAttBits, setGeoBit, toggleGeoBit} from "./root-geo-attribute-bits";
 
 
 export enum EditActions {

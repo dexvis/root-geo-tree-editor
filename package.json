@@ -18,10 +18,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run clean && tsc -p tsconfig.build.json",
-    "dev": "tsc -p tsconfig.build.json --watch",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "test": "vitest run",
-    "clean": "node -e \"require('fs').rmSync('dist', {recursive: true, force: true})\""
+    "prepublishOnly": "npm run build",
+    "build:check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
   },
   "homepage": "https://github.com/dexvis/root-geo-tree-editor#readme",
   "devDependencies": {
+    "tsdown": "^0.23.0",
     "typescript": "^6.0.3",
     "vitest": "^5.0.3"
   }
